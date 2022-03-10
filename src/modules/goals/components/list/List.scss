@@ -1,0 +1,22 @@
+.ListComponent {
+    border: 1px solid gray;
+    list-style: none;
+    padding: 0;
+    li {
+        cursor: pointer;
+        border: 1px solid #c6c6c8;
+        padding: 10px;
+        margin: 15px;
+        &:hover {
+            background-color: #f1f1f1;
+        }
+    }
+}
+
+.ListItem {
+    display: flex;
+    justify-content: space-between;
+    &.checked span{
+        text-decoration: line-through;
+    }
+}
